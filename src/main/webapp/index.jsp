@@ -46,34 +46,6 @@
         .form-group button:hover {
             background-color: #555;
         }
-body {
-            margin: 0;
-            overflow: hidden;
-            background-color: #f0f0f0;
-        }
-
-        .train-container {
-            position: relative;
-            width: 100%;
-            height: 100vh;
-        }
-
-        .train {
-            position: absolute;
-            top: 50%;
-            left: -100px;
-            transform: translateY(-50%);
-            animation: moveTrain 5s linear infinite;
-        }
-
-        @keyframes moveTrain {
-            0% {
-                left: -100px;
-            }
-            100% {
-                left: 100%;
-            }
-        }
     </style>
 </head>
 <body>
@@ -95,9 +67,6 @@ body {
                 <button type="submit">Submit</button>
             </div>
         </form>
-    </div>
-<div class="train-container">
-        <img src="train-logo.png" alt="Train Logo" class="train">
     </div>
 </body>
 </html>
